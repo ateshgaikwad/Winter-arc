@@ -1,5 +1,6 @@
 #!/bin/bash
 
+function fun() {
 for (( n=1 ; n<=5 ; n++ ))
 
 do 
@@ -11,4 +12,6 @@ do
 		echo "$n is equal to 5"
 	fi	
 done
+}
 
+fun 
