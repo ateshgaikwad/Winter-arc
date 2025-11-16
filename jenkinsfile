@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'CI pipeline is running!'
+            }
+	    steps {
+	    }
+
+	    
+        }
+	stage('build') {
+	    steps {
+	    	echo 'asfas'
+		}
+
+	}
+
+    }
+}
